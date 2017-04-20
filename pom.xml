@@ -8,7 +8,7 @@
     <modules>
         <module>gusofia-zk</module>
     </modules>
-    <name>gusofia Maven Webapp</name>
+    <name>gusofia</name>
     <url>http://maven.apache.org</url>
 
     <build>

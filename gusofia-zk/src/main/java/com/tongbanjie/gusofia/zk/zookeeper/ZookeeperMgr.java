@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * ZK统一管理器
  *
- * @author liaoqiqi
+ * @author ziyou
  * @version 2014-7-7
  */
 public class ZookeeperMgr {
