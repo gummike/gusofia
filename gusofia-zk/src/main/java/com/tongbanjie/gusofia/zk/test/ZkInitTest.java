@@ -3,7 +3,7 @@ package com.tongbanjie.gusofia.zk.test;
 
 import com.tongbanjie.gusofia.zk.zookeeper.ZookeeperMgr;
 
-public class ZkTest {
+public class ZkInitTest {
 
     private static final String ZK_HOST = "192.168.1.20:2181";
     private static final String ZK_PREFIX = "/zktest";

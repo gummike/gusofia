@@ -69,6 +69,7 @@ public class ConnectionWatcher implements Watcher {
         if (event.getState() == KeeperState.SyncConnected) {
 
             LOGGER.info("zk SyncConnected");
+            System.out.println("-----------"+event.getType());
             connectedSignal.countDown();
 
         } else if (event.getState().equals(KeeperState.Disconnected)) {
@@ -92,6 +93,11 @@ public class ConnectionWatcher implements Watcher {
         } else if (event.getState().equals(KeeperState.AuthFailed)) {
 
             LOGGER.error("zk AuthFailed");
+        }
+        System.out.println("ss");
+        if (event.getType().equals(Event.EventType.None)) {
+
+            LOGGER.error("zk EventType.None");
         }
     }
 

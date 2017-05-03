@@ -34,7 +34,7 @@ public class ConfigUpdater {
 
     public static void main(String[] args) throws Exception {
 
-        ConfigUpdater configUpdater = new ConfigUpdater(args[0]);
+        ConfigUpdater configUpdater = new ConfigUpdater("192.168.1.20:2181");
         configUpdater.run();
     }
 }
