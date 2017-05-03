@@ -1,7 +1,8 @@
-package com.tongbanjie.gusofia.pattern.test;
+package pattern.test;
 
-import com.tongbanjie.gusofia.pattern.Instance;
-import com.tongbanjie.gusofia.pattern.singleton.SingletonStaticHolder;
+
+import pattern.Instance;
+import pattern.singleton.SingletonStaticHolder;
 
 /**
  * @author zi.you

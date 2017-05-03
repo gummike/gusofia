@@ -1,6 +1,7 @@
-package com.tongbanjie.gusofia.pattern.singleton;
+package pattern.singleton;
 
-import com.tongbanjie.gusofia.pattern.Instance;
+
+import pattern.Instance;
 
 /**
  * @author zi.you

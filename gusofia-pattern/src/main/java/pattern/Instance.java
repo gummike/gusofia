@@ -1,4 +1,4 @@
-package com.tongbanjie.gusofia.pattern;
+package pattern;
 
 /**
  * @author zi.you

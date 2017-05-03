@@ -8,7 +8,7 @@
     <modules>
         <module>gusofia-zk</module>
         <module>gusofia-case</module>
-        <module>pattern</module>
+        <module>gusofia-pattern</module>
     </modules>
     <name>gusofia</name>
     <url>http://maven.apache.org</url>
