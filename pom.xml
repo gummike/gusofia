@@ -9,6 +9,8 @@
         <module>gusofia-zk</module>
         <module>gusofia-case</module>
         <module>gusofia-pattern</module>
+        <module>ssl</module>
+        <module>gusofia-io</module>
     </modules>
     <name>gusofia</name>
     <url>http://maven.apache.org</url>
