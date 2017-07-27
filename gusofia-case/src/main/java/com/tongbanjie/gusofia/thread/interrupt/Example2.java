@@ -1,26 +1,26 @@
 package com.tongbanjie.gusofia.thread.interrupt;
 
-class Example1 extends Thread {
-    boolean stop = false;
+class Example2 extends Thread {
+    volatile boolean stop = false;
 
     public static void main(String args[]) throws Exception {
-        Example1 thread = new Example1();
+        Example2 thread = new Example2();
         System.out.println("Starting thread...");
         thread.start();
+        System.out.println("Asking thread to stop...");
         Thread.sleep(3000);
-        System.out.println("Interrupting thread...");
-        thread.interrupt();
-//        System.out.println("Stopping application...");
-//        System.exit(0);
+        thread.stop = true;
+        System.out.println("Stopping application...");
+        //System.exit( 0 );
     }
 
     public void run() {
         while (!stop) {
             System.out.println("Thread is running...");
             long time = System.currentTimeMillis();
-            while ((System.currentTimeMillis() - time < 1000)) {
+            while ((System.currentTimeMillis() - time < 1000) && (!stop)) {
             }
         }
         System.out.println("Thread exiting under request...");
     }
-}
+}  
